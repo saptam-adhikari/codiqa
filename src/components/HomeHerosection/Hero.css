@@ -1,0 +1,31 @@
+.main-section{
+    text-align: left;
+    padding: 150px;
+}
+.main-section h3{
+    color: #10dcc9;
+}
+.main-section-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-section-content h2{
+    color: #bb86fc;
+    font-size: 2.5rem;
+    font-weight: 460;
+    letter-spacing: 0.5px;
+}
+.main-section-content button{
+    background-color: #3649b5;
+    color: white;
+    box-shadow: 0 20px 30px rgba(33, 33, 33, .07);
+    padding: 20px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    height: 60px;
+    margin-top: 40px;
+}
