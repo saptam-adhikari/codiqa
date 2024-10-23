@@ -7,7 +7,7 @@
     background-color: transparent;
     align-items: center;
     position: relative;
-    z-index: 10; /* Ensure navbar is on top */
+    z-index: 10; 
 }
 
 .options {
@@ -18,7 +18,7 @@
     margin-top: 40px;
     color: white;
     position: relative;
-    z-index: 11; /* Ensure options are above other content */
+    z-index: 11; 
 }
 
 .options li {
@@ -41,7 +41,7 @@
     width: 200px;
     visibility: hidden;
     opacity: 0;
-    z-index: 12; /* Ensure dropdown is above all other content */
+    z-index: 12; 
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
@@ -88,7 +88,7 @@
 .header-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the start */
+    align-items: flex-start; 
     text-align: left;
     min-width: 100vw;
     padding: 100px 100px;
@@ -96,11 +96,11 @@
 }
 
 .header-section.left-img {
-    flex-direction: row; /* Ensure left alignment */
+    flex-direction: row; 
 }
 
 .header-section.left-img .header-content {
-    padding-right: 50px; /* Add padding-right for content on left */
+    padding-right: 50px; 
 }
 
 .header-content h1, .header-content h2 {

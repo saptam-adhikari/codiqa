@@ -29,3 +29,139 @@
     height: 60px;
     margin-top: 40px;
 }
+.features-option{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 0px 80px;
+    font-weight: 250;
+}
+.features-option h1{
+    font-weight: 350;
+    font-size: 2rem;
+}
+.features-option img{
+    height: 100px;
+    width: 100px;
+    margin-top: -90px;
+}
+.social-network{
+    display: flex;
+    margin-top: 120px;
+    text-align: left;
+}
+.social-img img{
+    height: 650px;
+    width: 750px;
+}
+.social-netwok-content{
+    margin-left: 50px;
+}
+.social-netwok-content h1{
+    font-size: 3.5rem;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color: #df6981;
+}
+.social-netwok-content h2{
+    font-size: 3.5rem;
+    letter-spacing: -0.5px;
+    font-weight: 750;
+    color: #df6981;
+    margin-top: -55px;
+}
+.social-netwok-content h5{
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+.social-network-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.social-network-btn h4{
+    font-size: 1rem;
+    font-weight: 450;
+    color: #bc87fc;
+}
+.social-network-btn button{
+    background-color: #df6981;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    height: 50px;
+}
+.social-network-offered{
+    color: #bc87fc;
+}
+.companies-list{
+    margin-top: 80px;
+    padding: 0px 120px;
+}
+.companies-list h5{
+    color: #10dcc9;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.companies-list h1{
+    color: #bb86fc;
+    font-size: 2.5rem;
+    font-weight: 370;
+}
+.companies-logo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.companies-logo img{
+    height: 150px;
+    width: 300px;
+}
+.growing-rate-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.growing-rate-section img{
+    height: 580px;
+}
+.growing-rate-content{
+    margin-left: 150px;
+    text-align: left;
+}
+.growing-rate-content h1{
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: #df6981;
+}
+.growing-rate-content h2{
+    font-size: 3.8rem;
+    font-weight: 550;
+    color: #df6981;
+    margin-top: -60px;
+}
+.growing-rate-content p{
+    color: #bb86fc;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.growing-number{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.growing-number h3{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #3649b5;
+}
+.growing-number h5{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: -30px;
+    color: #bc87fc;
+}

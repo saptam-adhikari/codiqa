@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
-  const [currentSlide, setCurrentSlide] = useState(0); // Track current slide
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const sections = [
     {
@@ -38,14 +38,14 @@ const Header = () => {
     }
   ];
 
-  const totalSlides = sections.length; // Total number of sections
+  const totalSlides = sections.length; 
 
   const handleNextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides); // Go to next slide
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides); 
   };
 
   const handlePrevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides); // Go to previous slide
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides); 
   };
 
   const handleMouseEnter = () => {
@@ -101,7 +101,7 @@ const Header = () => {
       </nav>
 
       <div className='slider-container'>
-        {/* Section sliding container */}
+        
         <div
           className='slides'
           style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -127,12 +127,12 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Navigation Buttons */}
+        
         <button className='prev-btn' onClick={handlePrevSlide}>
-          &#10094; {/* Left arrow symbol */}
+          &#10094; 
         </button>
         <button className='next-btn' onClick={handleNextSlide}>
-          &#10095; {/* Right arrow symbol */}
+          &#10095; 
         </button>
       </div>
     </div>
