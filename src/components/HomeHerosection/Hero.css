@@ -165,3 +165,125 @@
     margin-top: -30px;
     color: #bc87fc;
 }
+.review-section{
+    background-color: #20267f;
+    height: 700px;
+    position: relative;
+    clip-path: ellipse(100% 100% at 50% 0%);
+    background-image: url("https://codiqa.bold-themes.com/social/wp-content/uploads/sites/4/2019/09/bgn-testimonials.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    z-index: 1; 
+}
+.review-content{
+   padding-top: 100px;
+   text-align: left;
+   margin-left: 150px;
+}
+.review-content h3{
+    color: #10dcc9;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.review-content h2{
+    color: #bb86fc;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.user-review{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+}
+.user-review h1{
+    color: white;
+    font-weight: 350;
+    font-size: 1.3rem;
+}
+.user-review p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 350;
+}
+.user-review h5{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: auto;
+}
+.review-content button{
+    margin-left: 500px;
+    margin-top: 80px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #df6981;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.pricing-section{
+    margin-top: 150px;
+}
+.pricing-section h1{
+    color: #df6981;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.pricing-section h2{
+    color: #df6981;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: -50px;
+}
+.packages-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.starting-package{
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+.starting-package h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.starting-package h4{
+    font-size: 2rem;
+    color: #3649b5;
+    margin: auto;
+    margin-top: -40px;
+}
+.starting-package button{
+    background-color:  #3649b5;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 20px;
+    border-radius: 50px;
+}
+.pro-package{
+    border: 4px solid #df6981;
+    border-radius: 25px;
+    padding: 50px; 
+}
+.pro-package h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.pro-package h4{
+    font-size: 2rem;
+    color: #df6981;
+    margin: auto;
+    margin-top: -40px;
+}
+.pro-package button{
+    background-color: #df6981;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 20px;
+    border-radius: 50px;
+}
