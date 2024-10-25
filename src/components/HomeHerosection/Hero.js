@@ -89,6 +89,7 @@ const Hero = () => {
               </div>
             ))}
           </div>
+          <br/>
           <hr />
           <div className='social-network-btn'>
             <h4>Want to try it out? Register and get started now!</h4>
@@ -226,6 +227,54 @@ const Hero = () => {
             <h5><TiTick />Export Reports</h5>
             <h5><TiTick />Up to 10 Users available</h5>
             <button>Purchase now</button>
+          </div>
+        </div>
+      </div>
+
+      <div className='sign_up-section'>
+        <img src="https://codiqa.bold-themes.com/social/wp-content/uploads/sites/4/2019/09/img-newsletter.png" alt="img" />
+        <div className='sign_up-part'>
+          <h1>Sign up for</h1>
+          <h2>Trial Version</h2>
+          <p>Podcasting operational change management inside of workflows to establish <br/>a framework. Taking seamless key performance indicators offline to maximise <br/>the long tail.</p>
+            <input type="text" placeholder="Enter your email address" />
+            <button>Sign up now</button>
+        </div>
+      </div>
+
+      <div className='codiaq-services'>
+        <h3>Safe network, awesome content</h3>
+        <h1>Codiqa makes it great for you</h1>
+        <div className='codiaq-services-lists'>
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/6733/6733466.png" alt="" />
+            <h4>User Protection</h4>
+            <p>Innovative and open <br/>source protection</p>
+          </div>
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2245/2245148.png" alt="" />
+            <h4>Data Backup</h4>
+            <p>Utilizing enterprise via<br/> 24/7 markets.</p>
+          </div>
+          <div>
+            <img src="https://cdn-icons-png.freepik.com/512/9321/9321325.png" alt="" />
+            <h4>Great Ideas</h4>
+            <p>Open-source via<br/> inexpensive materials.</p>
+          </div>
+          <div>
+            <img src="https://img.freepik.com/premium-vector/trophy-award-winner-icon-logo-design-vector-template-illustration-eps-10_929446-410.jpg" alt="" />
+            <h4>Award Winning</h4>
+            <p>Delivering performance <br/>based method.</p>
+          </div>
+          <div>
+            <img src="https://cdn.icon-icons.com/icons2/3492/PNG/512/computer_protection_security_shield_antivirus_software_icon_220413.png" alt="" />
+            <h4>Virus Protection</h4>
+            <p>Implement visionary e-<br/>services strategic.</p>
+          </div>
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/3995/3995353.png" alt="" />
+            <h4>Virtual Reality</h4>
+            <p>Global sources through<br/> interoperable services.</p>
           </div>
         </div>
       </div>

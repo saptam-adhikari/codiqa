@@ -33,12 +33,15 @@
     display: flex;
     text-align: left;
     justify-content: space-around;
-    padding: 0px 80px;
+    padding: 0px 110px;
     font-weight: 250;
 }
 .features-option h1{
     font-weight: 350;
     font-size: 2rem;
+}
+.features-option p{
+    padding: 0px 50px 0px 0px;
 }
 .features-option img{
     height: 100px;
@@ -56,6 +59,7 @@
 }
 .social-netwok-content{
     margin-left: 50px;
+    padding: 0px 50px 0px 0px;
 }
 .social-netwok-content h1{
     font-size: 3.5rem;
@@ -74,12 +78,12 @@
     margin-top: -30px;
     font-weight: 400;
     font-size: 1rem;
-
+    padding: 0px 200px 0px 0px;
 }
 .social-network-btn{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 .social-network-btn h4{
     font-size: 1rem;
@@ -95,9 +99,13 @@
     font-size: 1rem;
     font-weight: 550;
     height: 50px;
+    margin: auto;
 }
 .social-network-offered{
     color: #bc87fc;
+}
+.social-network-offered p{
+    padding: 0px 380px 0px 0px;
 }
 .companies-list{
     margin-top: 80px;
@@ -286,4 +294,74 @@
     font-size: 0.9rem;
     padding: 20px;
     border-radius: 50px;
+}
+.sign_up-section{
+    display: flex;
+    margin-top: 100px;
+}
+.sign_up-section img{
+    width: 780px;
+}
+.sign_up-part{
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 50px;
+}
+.sign_up-part h1{
+    color: #df6981;
+    font-size: 3.7rem;
+    font-weight: 400;
+}
+.sign_up-part h2{
+    color: #df6981;
+    font-size: 3.7rem;
+    font-weight: 650;
+    margin-top: -55px;
+}
+.sign_up-part p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: -30px;
+}
+.sign_up-part input{
+    padding: 15px;
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 1px solid #9a9595;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sign_up-part button{
+    padding: 20px;
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #df6981;
+    color: #f1f1f1;
+    font-weight: 750;
+    border: #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.codiaq-services{
+    margin-top: 80px;
+    padding: 0px 120px;
+}
+.codiaq-services h3{
+    color: #10dcc9;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.codiaq-services h1{
+    color: #bb86fc;
+    font-size: 2.5rem;
+    font-weight: 370;
+}
+.codiaq-services-lists{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.codiaq-services-lists img{
+    height: 70px;
 }
